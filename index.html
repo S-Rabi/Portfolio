@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="frontend developer, web designing, Rabi, portfolio, "
+    />
+
     <title>Rabi Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -25,7 +30,7 @@
   </head>
   <body>
     <header>
-      <div class="navbar">
+      <nav class="navbar">
         <a href="#" class="logo">
           <img src="./assets/logo-no-background.png" alt="" />
         </a>
@@ -35,141 +40,142 @@
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
+      </nav>
       <div class="bx bx-menu" id="menu-icon"></div>
     </header>
-    <section class="home" id="home">
-      <div class="home-text">
-        <h1>Rabi Sanaye</h1>
-        <h3 class="animated-text">I'm a <span class="auto-type"></span></h3>
-      </div>
-      <div class="home-img">
-        <img src="/assets/rabi.jpg" alt="HomeImg" />
-      </div>
-      <a href="#about-me">
-        <div class="spinner-wrapper">
-          <div class="spinner-border"></div>
-          <i class="ri-arrow-down-s-line spinner-text"></i></div
-      ></a>
-    </section>
-    <div class="icons">
-      <a
-        href="https://de.linkedin.com/in/rabi-sanaye-736377124?trk=profile-badge"
-        target="_blank"
-        ><i class="ri-linkedin-fill linkedin"></i
-      ></a>
-      <a href="https://github.com/s-rabi" target="_blank">
-        <i class="ri-github-fill github"></i
-      ></a>
-      <a href=" https://wa.me/4915213331433" target="_blank"
-        ><i class="ri-whatsapp-line whatsapp"></i
-      ></a>
-    </div>
-
-    <section class="about-me" id="about-me">
-      <div class="about-me-text">
-        <div class="text-animation-container">
-          <h4>A</h4>
-          <h4>b</h4>
-          <h4>o</h4>
-          <h4>u</h4>
-          <h4>t</h4>
-          <h4>M</h4>
-          <h4>e</h4>
+    <main>
+      <section class="home" id="home">
+        <div class="home-text">
+          <h1 class="title">Rabi Sanaye</h1>
+          <h2 class="animated-text">I'm a <span class="auto-type"></span></h2>
         </div>
-        <p class="about-me-p">
-          I am a skilled web developer with a deep passion for coding. Through
-          my work on both professional and personal projects, I have developed a
-          strong foundation in web development, including proficiency in HTML,
-          CSS, JavaScript, React, Tailwind, Bootstrap, MongoDB, and Express. At
-          DCI, I collaborated with teams on various projects and also partnered
-          with classmates on personal projects. As a detail-oriented developer,
-          I take great pride in delivering high-quality work that exceeds
-          clients' expectations. I stay up-to-date with the latest web
-          development trends and technologies, always eager to learn and grow in
-          my craft.
-        </p>
+        <div class="home-img">
+          <img src="/assets/rabi.jpg" alt="rabi-photo" />
+        </div>
+        <a href="#about-me">
+          <div class="spinner-wrapper">
+            <div class="spinner-border"></div>
+            <i class="ri-arrow-down-s-line spinner-text"></i></div
+        ></a>
+      </section>
+      <div class="icons">
+        <a
+          href="https://de.linkedin.com/in/rabi-sanaye-736377124?trk=profile-badge"
+          target="_blank"
+          ><i class="ri-linkedin-fill linkedin"></i
+        ></a>
+        <a href="https://github.com/s-rabi" target="_blank">
+          <i class="ri-github-fill github"></i
+        ></a>
+        <a href=" https://wa.me/4915213331433" target="_blank"
+          ><i class="ri-whatsapp-line whatsapp"></i
+        ></a>
       </div>
-      <div class="about-me-img">
-        <img src="/assets/2.jpg" alt="" class="about-img" />
-      </div>
-    </section>
 
-    <section id="projects">
-      <h2 class="projects-h2">
-        Latest <br />
-        Projects
-      </h2>
-      <div class="projects-container">
-        <div class="card-wrapper"></div>
-        <div id="myModal" class="modal">
-          <div class="modal-content">
-            <span class="close">&times; </span>
-            <h3 class="project-name"></h3>
-            <div class="modal-container">
-              <div class="modal-slider"></div>
-              <div class="modal-info">
-                <h3>Project Info</h3>
-                <p class="details"></p>
-                <h3>Project Detail</h3>
-                <p>Technologies: <span class="tech"></span></p>
-                <p>Date: <span class="date"></span></p>
+      <section class="about-me" id="about-me">
+        <div class="about-me-text">
+          <div class="text-animation-container">
+            <h4>A</h4>
+            <h4>b</h4>
+            <h4>o</h4>
+            <h4>u</h4>
+            <h4>t</h4>
+            <h4>M</h4>
+            <h4>e</h4>
+          </div>
+          <p class="about-me-p">
+            I am a skilled web developer with a deep passion for coding. Through
+            my work on both professional and personal projects, I have developed
+            a strong foundation in web development, including proficiency in
+            HTML, CSS, JavaScript, React, Tailwind, Bootstrap, MongoDB, and
+            Express. At DCI, I collaborated with teams on various projects and
+            also partnered with classmates on personal projects. As a
+            detail-oriented developer, I take great pride in delivering
+            high-quality work that exceeds clients' expectations. I stay
+            up-to-date with the latest web development trends and technologies,
+            always eager to learn and grow in my craft.
+          </p>
+        </div>
+        <div class="about-me-img">
+          <img src="/assets/2.jpg" alt="" class="about-img" />
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2 class="projects-h2">
+          Latest <br />
+          Projects
+        </h2>
+        <div class="projects-container">
+          <div class="card-wrapper"></div>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times; </span>
+              <h3 class="project-name"></h3>
+              <div class="modal-container">
+                <div class="modal-slider"></div>
+                <div class="modal-info">
+                  <h3>Project Info</h3>
+                  <p class="details"></p>
+                  <h3>Project Detail</h3>
+                  <p>Technologies: <span class="tech"></span></p>
+                  <p>Date: <span class="date"></span></p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="contact">
-      <div class="contact">
-        <h2 class="contact-title">Get in Touch</h2>
-        <div class="contact-form-wrapper">
-          <h2>Contact Me</h2>
-          <div class="contact-container">
-            <form class="contact-form">
-              <input
-                type="text"
-                id="name"
-                class="contact-input"
-                placeholder="NAME"
-                name="name"
-                required
-              />
-              <input
-                type="email"
-                id="email"
-                name="email"
-                class="contact-input"
-                placeholder="EMAIL"
-                required
-              />
-              <input
-                type="number"
-                id="number"
-                class="contact-input"
-                placeholder="PHONE"
-              />
+      </section>
+      <section id="contact">
+        <div class="contact">
+          <h2 class="contact-title">Get in Touch</h2>
+          <div class="contact-form-wrapper">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+              <form class="contact-form">
+                <input
+                  type="text"
+                  id="name"
+                  class="contact-input"
+                  placeholder="NAME"
+                  name="name"
+                  required
+                />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="contact-input"
+                  placeholder="EMAIL"
+                  required
+                />
+                <input
+                  type="number"
+                  id="number"
+                  class="contact-input"
+                  placeholder="PHONE"
+                />
 
-              <input
-                type="text"
-                id="message"
-                class="contact-input"
-                name="message"
-                autocomplete="off"
-                placeholder="MESSAGE..."
-              />
-              <button class="contact-btn" type="submit">SEND</button>
-            </form>
-            <div class="contact-info">
-              <h3>Contact information</h3>
-              <p><span> Addresss:</span> Hamburgerstr, 23843 Bad Oldesloe</p>
-              <!-- <p><span> Phone:</span> 015213331433</p> -->
-              <p><span>Email:</span> rabi.sanaye@yahoo.com</p>
-              <p><span>Website:</span> www.srabi.net</p>
+                <input
+                  type="text"
+                  id="message"
+                  class="contact-input"
+                  name="message"
+                  autocomplete="off"
+                  placeholder="MESSAGE..."
+                />
+                <button class="contact-btn" type="submit">SEND</button>
+              </form>
+              <div class="contact-info">
+                <h3>Contact information</h3>
+                <p><span> Addresss:</span> Hamburgerstr, 23843 Bad Oldesloe</p>
+                <!-- <p><span> Phone:</span> 015213331433</p> -->
+                <p><span>Email:</span> rabi.sanaye@yahoo.com</p>
+                <p><span>Website:</span> www.srabi.net</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- <div
+          <!-- <div
           class="footer"
           style="
             display: flex;
@@ -185,9 +191,10 @@
             </div>
           </footer>
         </div> -->
-        <div id="particles-js"></div>
-      </div>
-    </section>
+          <div id="particles-js"></div>
+        </div>
+      </section>
+    </main>
     <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>

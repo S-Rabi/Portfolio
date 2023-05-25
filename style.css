@@ -88,7 +88,7 @@ section {
   position: relative;
 }
 
-.home-text h1 {
+.title {
   font-size: 60px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -631,6 +631,9 @@ h4:hover {
   }
 }
 @media (max-width: 580px) {
+  .navList {
+    width: 280px;
+  }
   .home {
     padding-left: 25%;
   }
