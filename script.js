@@ -82,6 +82,7 @@ function showModal(nestedObj) {
   const details = document.querySelector(".details");
   const tech = document.querySelector(".tech");
   const date = document.querySelector(".date");
+  const projectLink = document.querySelector("#projectLink");
 
   modalContainer.innerHTML = ""; // Clear previous modal content
 
@@ -93,11 +94,13 @@ function showModal(nestedObj) {
     });
 
     details.textContent = nestedItem.name;
-
     tech.textContent = nestedItem.Technologies;
-
     date.textContent = nestedItem.date;
-
+    if (nestedItem.link) {
+      projectLink.innerHTML = nestedItem.link;
+    } else {
+      projectLink.innerHTML = "";
+    }
     modalContent.appendChild(modalContainer);
     modalContainer.appendChild(modalInfo.cloneNode(true));
   });

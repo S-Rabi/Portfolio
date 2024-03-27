@@ -1,6 +1,20 @@
 const database = [
   {
     id: 1,
+    image: "./assets/dac1.png",
+    title: "Dandenong Automotive ",
+    modal: [
+      {
+        images: ["./assets/dac.png"],
+        name: "DAC is a Vue SPA. It's an automotive service center website. It incorporates a small backend using Nodemailer to send emails.",
+        link: "<a href='https://www.dandenongautomotivecentre.com.au/' target='_blank'>Visit DAC Website</a>",
+        Technologies: " Vue, CSS3, Express",
+        date: " March 2024",
+      },
+    ],
+  },
+  {
+    id: 2,
     image: "./assets/shopillan.png",
     title: "Shopilla",
     modal: [
@@ -14,7 +28,7 @@ const database = [
   },
 
   {
-    id: 2,
+    id: 3,
     image: "./assets/cafe.png",
     title: "City Cafe",
     modal: [
@@ -27,7 +41,7 @@ const database = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     image: "./assets/socialApp4.png",
     title: "Social App",
     modal: [
@@ -41,7 +55,7 @@ const database = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     image: "./assets/tb4.png",
     title: "Travel Buddy",
     modal: [
@@ -55,7 +69,7 @@ const database = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     image: "./assets/w.png",
     title: "Weather App",
     modal: [
@@ -64,19 +78,6 @@ const database = [
         name: "A small single page application that provides real-time weather updates with a simple interface, allowing users to stay informed about the current conditions effortlessly. This project was developed by Alina Cuznetov, Julia Kobzar and Rabi Sanaye",
         Technologies: " React Js, CSS3,  Bootstrap",
         date: " November 2022",
-      },
-    ],
-  },
-  {
-    id: 6,
-    image: "./assets/spacex4.png",
-    title: "Space X",
-    modal: [
-      {
-        images: ["./assets/spacex.png"],
-        name: "We have created a website inspired by SpaceX, incorporating elements reminiscent of their design and functionality.",
-        Technologies: " Html5, CSS3, Sass",
-        date: " June 2022",
       },
     ],
   },
